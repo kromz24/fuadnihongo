@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* Set Font Utama */
+  --font-sans: 'Inter', 'Noto Sans JP', sans-serif;
+  
+  /* Set Radius Custom (20px) */
+  --radius-xl: 20px;
+  
+  /* Color Palette Blueprint */
+  --color-primary: #6366F1;
+  --color-success: #22C55E;
+  --color-danger: #EF4444;
+  --color-warning: #F59E0B;
+  
+  /* Background & Card Muted Ramah di Mata */
+  --color-background: #09090B;
+  --color-card: #18181B;
+}
+
+body {
+  background-color: var(--color-background);
+  color: #f4f4f5;
+  font-family: var(--font-sans);
+}
